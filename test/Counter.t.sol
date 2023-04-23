@@ -12,15 +12,15 @@ contract CounterTest is Test {
     }
 
     function testCount() public {
-        uint value = counter.getCount();
-        assertEq(value,10);
+        uint256 value = counter.getCount();
+        assertEq(value, 10);
         emit log_named_uint("THe value is: ", value);
     }
 
     function testIncrementCounter() public {
         counter.incrementCounter();
-        uint value = counter.getCount();
-        assertEq(value,11);
+        uint256 value = counter.getCount();
+        assertEq(value, 11);
         emit log_named_uint("THe value is: ", value);
     }
 }
