@@ -1,4 +1,5 @@
 ## Foundry Contract Guide
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Foundry GitHub - [https://github.com/foundry-rs](https://github.com/foundry-rs)  
 Foundry Book - [https://book.getfoundry.sh/](https://book.getfoundry.sh/)  
